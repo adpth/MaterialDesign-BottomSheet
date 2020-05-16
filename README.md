@@ -4,7 +4,7 @@ I have used RecyclerView and Adapter to implement our bottom sheet effectively
 
 ![untitled copy-175 (dragged)](https://user-images.githubusercontent.com/61702243/82122863-bcc21e80-97b3-11ea-8b96-e36b9da74f63.jpg)
 
-When i lon click on any one of the ite then the bottom sheet is Expanded !
+When we long click on any one of the item then the bottom sheet is Expanded !
 
 ![untitled copy-280 (dragged)](https://user-images.githubusercontent.com/61702243/82122864-be8be200-97b3-11ea-8826-e56c8b142de0.jpg)
 
