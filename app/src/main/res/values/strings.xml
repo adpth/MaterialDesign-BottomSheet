@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Bottom Sheet</string>
+    <string name="picture_1_title">Picture 1 Title</string>
+    <string name="size">size</string>
+    <string name="delete_collection">delete collection</string>
+    <string name="edit">Edit</string>
+    <string name="get_link">Get link</string>
+    <string name="share">Share</string>
+</resources>
