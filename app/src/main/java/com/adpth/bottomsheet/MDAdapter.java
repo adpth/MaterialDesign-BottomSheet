@@ -5,7 +5,9 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -75,6 +77,37 @@ public class MDAdapter extends RecyclerView.Adapter<MDAdapter.MyViewHolder> {
              BottomSheetDialog dialog = new BottomSheetDialog(v.getContext());
              dialog.setContentView(view);
              dialog.show();
+
+             LinearLayout share,link,edit,delete;
+
+             share=view.findViewById(R.id.share);
+             share.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View v) {
+                     Toast.makeText(v.getContext(), "Share "+getAdapterPosition(), Toast.LENGTH_SHORT).show();
+                 }
+             });
+             link=view.findViewById(R.id.link);
+             link.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View v) {
+                     Toast.makeText(v.getContext(), "Get Link "+getAdapterPosition(), Toast.LENGTH_SHORT).show();
+                 }
+             });
+             edit=view.findViewById(R.id.edit);
+             edit.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View v) {
+                     Toast.makeText(v.getContext(), "Edit "+getAdapterPosition(), Toast.LENGTH_SHORT).show();
+                 }
+             });
+             delete=view.findViewById(R.id.delete);
+             delete.setOnClickListener(new View.OnClickListener() {
+                 @Override
+                 public void onClick(View v) {
+                     Toast.makeText(v.getContext(), "Delete "+getAdapterPosition(), Toast.LENGTH_SHORT).show();
+                 }
+             });
 
          }
      }
