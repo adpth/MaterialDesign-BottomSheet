@@ -15,6 +15,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="5"
+        android:id="@+id/share"
         android:orientation="horizontal">
 
         <ImageView
@@ -40,6 +41,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:id="@+id/link"
         android:weightSum="5">
 
         <ImageView
@@ -65,6 +67,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:weightSum="5"
+        android:id="@+id/edit"
         android:orientation="horizontal">
 
         <ImageView
@@ -90,6 +93,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+        android:id="@+id/delete"
         android:weightSum="5">
 
         <ImageView
